@@ -1,0 +1,89 @@
+.sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    width: 20%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile {
+    display: flex;
+    
+    margin-bottom: 30px;
+    align-items: center;
+    gap: .5rem;
+  }
+  
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .user-name {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .user-id {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .nav-fields ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 4rem;
+  }
+  
+  .nav-fields li {
+    
+    margin-bottom: 2rem;
+  }
+  
+  .nav-fields a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .nav-fields a:hover {
+    color: #007bff;
+  }
+  
+
+  /* icon and text format */
+
+  .home-set
+  {
+    display: flex;
+    gap: .5rem;
+    align-items: flex-start;
+  }
+  .chat-set
+  {
+    display: flex;
+    gap: .5rem;
+  }
+  .savepost-set{
+    display: flex;
+    gap: .5rem;
+  }
+  .friend-set{
+    display: flex;
+    gap: .5rem;
+  }
+  .setting-set
+  {
+    display: flex;
+    gap: .5rem;
+  }

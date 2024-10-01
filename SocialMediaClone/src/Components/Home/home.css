@@ -1,0 +1,53 @@
+.scrollable-container {
+    height: 95vh; /* Full screen height */
+    width: 35rem; /* Fixed width */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 1rem; /* Padding around the container */
+    border: 1px solid #ccc; /* Optional border for visual separation */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  .scrollable-container::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
+  }
+  
+  .post-card {
+    margin-bottom: 1rem; /* Space between cards */
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 50rem; /* Fixed height for images */
+    object-fit: cover; /* Cover the area without distortion */
+  }
+  
+  .favorite-icon {
+    color: red; /* Red color for favorite icon */
+  }
+  
+  .bookmark-icon {
+    color: skyblue; /* Skyblue color for bookmark icon */
+  }
+  
+  .favorite-icon,
+  .bookmark-icon {
+    cursor: pointer;
+  }
+  
+  .favorite-icon.active {
+    background-color: red; /* Change background color when liked */
+  }
+  
+  .bookmark-icon.active {
+    background-color: skyblue; /* Change background color when bookmarked */
+  }
+  
+  .favorite-icon:hover {
+    color: darkred; /* Change color on hover */
+  }
+  
+  .bookmark-icon:hover {
+    color: deepskyblue; /* Change color on hover */
+  }
+  

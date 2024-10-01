@@ -1,0 +1,63 @@
+.people-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .people-card {
+    display: flex;
+    align-items: center;
+    width: fit-content; /* Each card will take up roughly half the width */
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+  }
+  .people-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .card-details {
+    flex-grow: 1;
+  }
+  
+  .card-details .card-title {
+    font-size: 1.25rem;
+    color: #6c757d;
+    margin-bottom: 5px;
+  }
+  
+.connect-button {
+    background-color: #ff6600;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .connect-button:hover {
+    background-color: #ff8c1a;
+    transform: translateY(-2px);
+  }
+  
+  .connect-button:active {
+    background-color: #cc5200;
+    transform: translateY(1px);
+  }
+  
