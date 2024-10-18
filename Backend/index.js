@@ -329,11 +329,10 @@ app.get('/getPeople', async (req, res) => {
 
 app.get('/getpost', async (req, res) => {
     try {
-        // Fetch all posts (ensure 'post' is the correct model)
+        // Fetch all posts 
         const post = await Post.find({});
         console.log("All posts fetched");
 
-        // If you want to sample posts, use the `posts` variable
         const posts = await Post.aggregate([
             { $sample: { size: post.length } } // Randomly sample items
         ]);
